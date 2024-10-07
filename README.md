@@ -24,6 +24,10 @@ The repository contains the following files:
 - **Loss.png**: A plot showing the training and validation accuracy and loss over the epochs.
 - **confusion_matrix.png**: A confusion matrix visualizing the classifier's performance on the test data.
 
+https://drive.google.com/file/d/1mhr-DUqF4RqHAhVN5GYprUyjzyARTnwM/view?usp=drive_link
+
+The above is the link for .pth file of saved model after training and validation. You can use this file as input for testing_confusion_matrix.ipynb for generating the confusion matrix. Alterantively you can also generate the .pth file after running the xj_generation_and_classifier.ipynb with the updated hyper-parameters cell in notebook.
+
 ## Setup Instructions
 
 ### 1. Clone the Repository 
