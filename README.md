@@ -59,22 +59,18 @@ pip install optuna
 You can open the Jupyter notebooks to view or run the code interactively:
 
 xj_generation_and_classifier.ipynb: This notebook contains the code for generating completions using different LLMs and training the BERT-based classifier.
-NOTE: You need not run the entire notebook cells as it has several experimentations (which are clearly described as headings in the cells). You can run the cells that is generating 3500 * 5 texts (xj) and the final classifier cell by BERT after getting the hyper-parameters to get the end results. I have also included every input and outputs in this repo. 
+
+NOTE: You need not run the entire notebook cells as it has several experimentations (which are clearly described as headings in the cells of every notebook). You can run the cells that is generating 3500 * 5 texts (xj) and the final classifier cell by BERT after getting the hyper-parameters to get the end results. I have also included every input and outputs in this repo. 
 
 testing_confusion_matrix.ipynb: This notebook evaluates the model and generates a confusion matrix based on the unseen test data which is also provided. This notebook can be easily running on google-collab. The inputs and outputs with same names are already provided in this repo.
 
-To run the notebooks, use:
-bash
-Copy code
-jupyter notebook
-Open the respective notebook files from the Jupyter dashboard.
 
 ### 4. Results
 The classifier achieved the following performance:
 
 Training Accuracy: 96.7% after 4 epochs (Used Early stopping with patience 2).
 Validation Accuracy: 89.5%
-Test Accuracy: 89% on a randomly selected test set of 700 samples
+Test Accuracy: 89% on a randomly selected unseen test set of 700 samples
 
 ### 5. Visualizations
 Training and Validation Curves: Available in Loss.png, showing the training and validation loss and accuracy across epochs.
