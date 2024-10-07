@@ -31,7 +31,7 @@ The repository contains the following files:
 Clone the repository to your local machine and run the notebooks in google collab / local:
 
 
-git clone https://github.com/username/CSE_584_midterm_project.git
+https://github.com/venkataseshtej/CSE_584_midterm_project/tree/main
 
 ### 2. Install Dependencies
 Every required installation is already shown in the notebook cells. Please run these dependency cells which are at the start of the notebook.
